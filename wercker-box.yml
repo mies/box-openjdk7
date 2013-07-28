@@ -1,0 +1,19 @@
+name: openjdk7
+version: 0.0.1
+type: main
+platform: ubuntu@12.04
+description: box with openjdk7 installed via apt-get
+keywords:
+  - openjdk
+  - java
+  - jdk
+packages:
+  - openjdk-7-jdk
+  - wget
+  - git-core
+  - curl
+  - build-essential
+script: |-
+  sudo apt-get update
+  sudo apt-get install openjdk-7-jdk -qq
+  sudo apt-get install -y wget git-core curl build-essential
