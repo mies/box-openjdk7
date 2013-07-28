@@ -1,8 +1,8 @@
 name: openjdk7
-version: 0.0.2
+version: 0.0.3
 type: main
 platform: ubuntu@12.04
-description: box with openjdk7 and maven nstalled via apt-get
+description: box with openjdk7 and maven installed via apt-get
 keywords:
   - openjdk
   - java
