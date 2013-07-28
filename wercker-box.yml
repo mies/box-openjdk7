@@ -1,14 +1,16 @@
 name: openjdk7
-version: 0.0.1
+version: 0.0.2
 type: main
 platform: ubuntu@12.04
-description: box with openjdk7 installed via apt-get
+description: box with openjdk7 and maven nstalled via apt-get
 keywords:
   - openjdk
   - java
   - jdk
+  - maven
 packages:
   - openjdk-7-jdk
+  - maven
   - wget
   - git-core
   - curl
@@ -16,4 +18,5 @@ packages:
 script: |-
   sudo apt-get update
   sudo apt-get install openjdk-7-jdk -qq
+  sudo apt-get install maven
   sudo apt-get install -y wget git-core curl build-essential

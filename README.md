@@ -2,7 +2,7 @@
 
 the jdk is installed via apt-get
 
-this box does not come with maven or any other build tool
+this box also comes with maven, the java build tool
 
 feel free to fork the box and make additions to the box
 
